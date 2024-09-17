@@ -1,9 +1,0 @@
-import numpy as np
-import plotly.express as px
-# x-axis data points
-x = np.linspace(start=-50, stop=50)
-# y-axis data points
-y = x ** 2
-# define the plot
-fig = px.scatter(x=x, y=y)
-fig.show()
